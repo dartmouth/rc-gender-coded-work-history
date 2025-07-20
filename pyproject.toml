@@ -1,0 +1,24 @@
+[project]
+name = "gender-coded-work-history"
+version = "0.1.0"
+description = "Engineering a proxy variable for the perceived femininity of a person's job history."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "duckduckgo-search==7.2",
+    "grandalf>=0.8",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "jinja2>=3.1.6",
+    "joblib>=1.5.1",
+    "langchain-dartmouth",
+    "langgraph>=0.3.21",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "selenium>=4.30.0",
+    "tqdm>=4.67.1",
+    "webdriver-manager>=4.0.2",
+    "xlsxwriter>=3.2.5",
+]
